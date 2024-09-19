@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InvestmentFormComponent } from './investment-form/investment-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InvestmentFormComponent
+    InvestmentFormComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
